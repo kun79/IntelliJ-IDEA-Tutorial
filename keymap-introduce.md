@@ -1,37 +1,5 @@
 # 快捷键
 
-## 说明
-
-IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各个快捷键组合请认真对待。IntelliJ IDEA 本身的设计思维是提倡键盘优先于鼠标的，所以各种快捷键组合层出不穷，对于快捷键设置也有各种支持，对于其他 IDE 的快捷键组合也有预设模板进行支持。
-
-关于各个快捷键的频率分类上可能每个人都有各自的看法，下面的整理也只是以我个人的使用习惯来划分的，而我应该是可以代表某一部分小众人员。但是我个人还是强烈建议你可以在我的基础上整理一份属于你的快捷键目录（删除掉多余的字眼，只保留快捷键内容），本篇文章也只是起到一个工具和引子的作用。
-
-对于下面各个快捷键的使介绍描述也许用我个人语言翻译起来不够准确或是不全面，且在不同的文件类型上按出来的效果也可能结果不太一样,所以 **强烈建议** 你自己把各个快捷键都亲自操作下体会下各个快捷键的实际用法。
-
-## 前提
-
-由于文化的不同，我们使用的电脑必备一个软件就是中文输入法，而目前大多数人都使用搜狗拼音输入法或是其他类似的。而这些输入法跟 IntelliJ IDEA 有一个万恶的冲突永恒不变：快捷键冲突。所以为了配合 IntelliJ IDEA，我们要去掉这些输入法下的所有快捷键。
-
-![前提](images/xxvii-c-keymap-premise-1.jpg)
-
-> * 如上图红色圈住内容所示，默认是 `逗号` 我改为了 ESC 键下的 `波浪号`，`Ctrl + 逗号` 这个快捷键适合做智能提示用，下面的快捷键列表会讲。
-
-![前提](images/xxvii-c-keymap-premise-2.jpg)
-
-> * 如上图红色圈住内容所示，这些快捷键很容易跟 IntelliJ IDEA 快捷键冲突，需要全部去掉。
-
-![前提](images/xxvii-c-keymap-premise-3.jpg)
-
-> * 如上图红色圈住内容所示，QQ 这些快捷键也很容易跟 IntelliJ IDEA 快捷键冲突，需要全部去掉，最多保持一个截图功能即可。
-
-可能还有其他一些软件，比如网易云音乐、有道词典等等这些软件都可能存在快捷键冲突，所以为了 IntelliJ IDEA 这些软件的快捷键都是值得舍弃的，如果你在开发的时候。
-
-
-![前提](images/xxvii-d-keymap-learn-1.gif)
-
-> * IntelliJ IDEA 官方出的学习辅助插件：IDE Features Trainer：<https://plugins.jetbrains.com/plugin/8554?pr=idea>
-
-
 ## Ctrl
 
 |快捷键|介绍|
@@ -240,30 +208,3 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 ## 第三方快捷键资料
 
 > * 来自 eta02913：<http://xinyuwu.iteye.com/blog/1005454>
-
-## 快捷键修改
-
-![修改快捷键](images/xxvii-a-keymap-setting-1.jpg)
-
-> * 按 `Ctrl + Alt + S` 弹出 IDE 设置，如上图选择左侧的 `Keymap`。
-> * IntelliJ IDEA 支持两种方式来筛选我们要找的快捷键，一种是上图标注 1 所示的，通过输入快捷键描述内容；一种是上图标注 2 所示的，通过 **按** 指定快捷键快捷键，这里需要再次强调的是，这个输入框是自动监听你当前按下的按键，而不是用来输入的。
-> * 上图标注 3 所示，初安装的 IntelliJ IDEA 使用的是 `Default` 的快捷键模板，IntelliJ IDEA 默认的快捷键模板都是不可修改的。如果你直接修改，当前这个位置 IntelliJ IDEA 会自动变成 `Default Copy`，建议你养成习惯，修改之前先点击 `Copy`，拷贝一套快捷键模板，然后输入自己的命名。
-
-![修改快捷键](images/xxvii-a-keymap-setting-2.jpg)
-
-> * IntelliJ IDEA 是支持一个操作命令同时设置多个快捷键组合，就如上图的 `Backspace`，同时支持 `Backspace` 和 `Shift + Backspace` 两组快捷键。
-> * 要修改某个快捷键，选中快捷键介绍内容，右键，就会弹出如上图标注 1 所示操作选择。
-> * 命令 `Add Keyboard Shortcut` 用来添加新纯键盘快捷键组合。
-> * 命令 `Add Mouse Shortcut` 用来添加新 `键盘 + 鼠标` 快捷键组合，比如设置 `Ctrl + 左键单击` 这类快捷组合。其中在弹出的添加面板中 `Click Pad` 是用来监听当前鼠标是左键单击还是右键单击。
-> * 命令 `Add Abbreviation` 根据 IntelliJ IDEA 的版本文档解释，添加简称主要是为了方便 `Search Everywhere` 中使用，但是我尝试之后发现没办法根据我设置的简称搜索，暂时无法了解其作用。 
-> * 命令 `Remove 快捷键` 移出当前操作命令已设置的快捷键组合，由于 IntelliJ IDEA 默认就占用了很多快捷键组合，所以如果你要修改某个快捷键，建议还是删除掉旧的。 
-
-![修改快捷键](images/xxvii-a-keymap-setting-3.jpg)
-
-> * IntelliJ IDEA 对其他 IDE 用户很友好，如上图对于其他主流的 IDE，快捷键上已经默认了有其过度快捷键模板了，但是我还是建议你专心使用 IntelliJ IDEA 的默认。
-
-## 其他
-
-![vim插件推荐](images/xxvii-b-ideavim-1.jpg)
-
-> * 如果你是一个 Vim 粉，IntelliJ IDEA 也为你准备了一个方案：如上图安装 IdeaVim 插件即可。
